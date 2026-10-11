@@ -2,7 +2,7 @@ export default {
 	"[A]|Accumulator": {
 		also: {
 			es: "[A]|Acumulador",
-			ru: "Аккумулятор|[A]|_аккумулятора|_аккумуляторе|_[A]|_Accumulator",
+			ru: "Аккумулятор|[A]|_аккумулятора|_аккумуляторе|_Accumulator",
 		},
 		icon: "🔢",
 		en:
@@ -344,7 +344,7 @@ export default {
 			es:
 				"Dirección CPU|_Direcciones CPU|_Dirección de CPU|_Direcciones de CPU|$CPU|Memoria CPU",
 			ru:
-				"Адрес CPU|Память CPU|$CPU|_адреса CPU|_адресов CPU|_памяти CPU|_CPU address|_CPU addresses|_$CPU|_CPU memory",
+				"Адрес CPU|Память CPU|$CPU|_адреса CPU|_адресов CPU|_памяти CPU|_CPU address|_CPU addresses|_CPU memory",
 		},
 		icon: "🐏",
 		en:
@@ -448,7 +448,7 @@ export default {
 	"DMA|DMA transfer": {
 		also: {
 			es: "DMA|Transferencia DMA",
-			ru: "DMA|Передача DMA|_передачи DMA|_DMA|_DMA transfer",
+			ru: "DMA|Передача DMA|_передачи DMA|_DMA transfer",
 		},
 		icon: "⚡",
 		en:
@@ -461,7 +461,7 @@ export default {
 	"DMC Channel|DMC": {
 		also: {
 			es: "Canal DMC|DMC",
-			ru: "DMC-канал|DMC|_DMC-канала|_DMC Channel|_DMC",
+			ru: "DMC-канал|DMC|_DMC-канала|_DMC Channel",
 		},
 		icon: "📦",
 		en:
@@ -510,7 +510,7 @@ export default {
 	"DPCM|Delta Modulation": {
 		also: {
 			es: "DPCM|Modulación Delta",
-			ru: "DPCM|Дельта-модуляция|_дельта-модуляции|_DPCM|_Delta Modulation",
+			ru: "DPCM|Дельта-модуляция|_дельта-модуляции|_Delta Modulation",
 		},
 		icon: "🤏",
 		en:
@@ -684,7 +684,7 @@ export default {
 		ru:
 			"Короткий интервал после отрисовки строки развёртки, когда PPU простаивает перед началом следующей строки.",
 		also: {
-			ru: "HBlank|Горизонтальное гашение|_HBlank|_Horizontal Blank",
+			ru: "HBlank|Горизонтальное гашение|_Horizontal Blank",
 		},
 	},
 	iNEEES: {
@@ -748,8 +748,7 @@ export default {
 	"Least significant byte|LSB|Low byte": {
 		also: {
 			es: "Byte menos significativo|LSB|Low byte|Byte bajo",
-			ru:
-				"Младший байт|LSB|_младшего байта|_Least significant byte|_LSB|_Low byte",
+			ru: "Младший байт|LSB|_младшего байта|_Least significant byte|_Low byte",
 		},
 		icon: "🔢",
 		en:
@@ -796,7 +795,7 @@ export default {
 		ru:
 			"Порядок хранения, при котором младший байт числа записывается в память первым.",
 		also: {
-			ru: "Little Endian|Младший байт первым|_Little Endian",
+			ru: "Little Endian|Младший байт первым",
 		},
 	},
 	"Machine code|Game code|_Game's code|_Games' code": {
@@ -911,8 +910,7 @@ export default {
 	"Most significant byte|MSB|High byte": {
 		also: {
 			es: "Byte más significativo|MSB|High byte|Byte alto",
-			ru:
-				"Старший байт|MSB|_старшего байта|_Most significant byte|_MSB|_High byte",
+			ru: "Старший байт|MSB|_старшего байта|_Most significant byte|_High byte",
 		},
 		icon: "🔢",
 		en:
@@ -1026,7 +1024,7 @@ export default {
 	"OAM|OAM table": {
 		also: {
 			es: "OAM|Tabla OAM",
-			ru: "OAM|Таблица OAM|_таблицы OAM|_таблице OAM|_OAM|_OAM table",
+			ru: "OAM|Таблица OAM|_таблицы OAM|_таблице OAM|_OAM table",
 		},
 		icon: "🛸📖",
 		en: "_(Object Attribute Memory)_ A list of sprites, stored in OAM RAM.",
@@ -1188,7 +1186,7 @@ export default {
 			es:
 				"Dirección PPU|_Direcciones PPU|_Dirección de PPU|_Direcciones de PPU|$PPU|Memoria PPU",
 			ru:
-				"Адрес PPU|Память PPU|$PPU|_адреса PPU|_адресов PPU|_памяти PPU|_PPU address|_PPU addresses|_$PPU|_PPU memory",
+				"Адрес PPU|Память PPU|$PPU|_адреса PPU|_адресов PPU|_памяти PPU|_PPU address|_PPU addresses|_PPU memory",
 		},
 		icon: "🐏",
 		en:
@@ -1539,11 +1537,11 @@ export default {
 		ru:
 			"Спрайт с индексом OAM `0`. У него особое поведение в PPU: например, при пересечении с фоном он может вызвать попадание нулевого спрайта.",
 	},
-	"Sprite-zero hit|_Sprite zero hit|_Sprite zero hit|_Sprite-zero hits": {
+	"Sprite-zero hit|_Sprite zero hit|_Sprite-zero hits": {
 		also: {
-			es: "Sprite zero hit|_Sprite-zero hit|_Sprite zero hit|_Sprite-zero hits",
+			es: "Sprite zero hit|_Sprite-zero hit|_Sprite-zero hits",
 			ru:
-				"Попадание нулевого спрайта|_попадания нулевого спрайта|_Sprite-zero hit|_Sprite zero hit|_Sprite zero hit|_Sprite-zero hits",
+				"Попадание нулевого спрайта|_попадания нулевого спрайта|_Sprite-zero hit|_Sprite zero hit|_Sprite-zero hits",
 		},
 		icon: "👊",
 		en:
@@ -1688,7 +1686,7 @@ export default {
 		ru:
 			"Более длинный интервал после последней строки кадра, когда PPU простаивает перед началом следующего кадра. Лучшее время для безопасного обновления графики.",
 		also: {
-			ru: "VBlank|Вертикальное гашение|_VBlank|_Vertical Blank",
+			ru: "VBlank|Вертикальное гашение|_Vertical Blank",
 		},
 	},
 	VDraw: {

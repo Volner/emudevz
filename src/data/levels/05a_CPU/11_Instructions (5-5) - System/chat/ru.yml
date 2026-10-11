@@ -87,7 +87,7 @@ exercise:
         (иначе значение помещается как есть)
       **->** добавляет 7 тактов (```javascript this.cycle += 7```)
       **->** устанавливает ~I=1~ в регистре флагов
-      **->** устанавливает [PC] в результат чтения адресов ```javascript interrupt.vector``` и ```javascript interrupt.vector+1``` в порядке Little Endian
+      **->** устанавливает [PC] = результат чтения адресов ```javascript interrupt.vector``` и ```javascript interrupt.vector+1``` в порядке Little Endian
         (помни, что для этого у тебя есть метод `read16(...)`)
       **->** возвращает 7
   responses:
